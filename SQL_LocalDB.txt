@@ -1,0 +1,15 @@
+运行cmd
+进入目录
+%ProgramFiles%\Microsoft SQL Server\120\Tools\Binn
+sqllocaldb c
+sqllocaldb s
+创建并启动了MSSQLLocalDB实例
+
+
+打开 "服务器资源管理器"
+右键点击 "数据连接" "添加连接"
+"数据源" 选择 "Microsoft SQL Server 数据库文件"
+浏览 选择要添加的数据库mdf文件
+
+链接字符串
+Server=(LocalDB)\MSSQLLocalDB; Integrated Security=true ;AttachDbFileName=C:\XXXXXX\XXXXX\XXXX.mdf
